@@ -1,0 +1,13 @@
+server:
+    port: 8080
+
+spring:
+  application:
+    name: auth-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/placeholder
+    username: placeholder
+    password: placeholder
+  jpa:
+    defer-datasource-initialization: true
+
